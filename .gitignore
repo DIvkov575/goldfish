@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated data — large binary files, reproducible from scripts
+runs/
+data/
+
+# Model checkpoints — large, store separately if needed
+checkpoints/
+
+# Benchmark outputs
+results*.json
+
+# Logs
+log/
+*.log
+
+# OASIS runtime
+*.db
+
+# OASIS upstream clone — managed as a separate git repo
+oasis/
